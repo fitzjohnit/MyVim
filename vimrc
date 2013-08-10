@@ -40,7 +40,7 @@ cmap wR<CR> :w !sudo tee % <CR>
 
 "=============== Code Helpers
 " map emmet-vim
-map 1 <C-e>
+map 1 <C-y>,
 
 " Remap code commenting
 map // \cc
