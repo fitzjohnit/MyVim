@@ -51,7 +51,8 @@ map ?? \cu
 
 
 "=============== Look and feel
-colorscheme desert
+syntax on
+colorscheme distinguished
 set autoindent
 set cindent
 set expandtab
