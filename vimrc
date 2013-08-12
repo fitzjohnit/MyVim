@@ -52,7 +52,7 @@ map ?? \cu
 
 "=============== Look and feel
 syntax on
-colorscheme distinguished
+colorscheme desert
 set autoindent
 set cindent
 set expandtab
