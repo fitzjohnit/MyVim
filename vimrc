@@ -51,7 +51,6 @@ map ?? \cu
 
 
 "=============== Look and feel
-syntax on
 colorscheme desert
 set autoindent
 set cindent
@@ -90,3 +89,12 @@ let g:syntastic_mode_map = { 'mode': 'active' }
 map l :lnext<CR>
 map L :lprev<CR>
 map E :Errors<CR>
+
+
+
+
+"=============== CtrlP Searching
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
