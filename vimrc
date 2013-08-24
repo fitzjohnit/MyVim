@@ -51,6 +51,7 @@ map ?? \cu
 
 
 "=============== Look and feel
+syntax on
 colorscheme desert
 set autoindent
 set cindent
