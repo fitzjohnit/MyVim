@@ -2,4 +2,5 @@
 
 cp ../.vimrc vimrc
 
-git submodule update --init
+git submodule foreach git pull
+
