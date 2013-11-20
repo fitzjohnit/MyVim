@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo Copying .vimrc into place
-cp vimrc ../.vimrc
+cp vimrc.example ~/.vimrc
 
 echo Adding pathogen script
 mkdir -p autoload
