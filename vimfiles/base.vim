@@ -99,15 +99,11 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_extensions = ['tag','dir', 'line', 'mixed']
 let g:ctrlp_max_files=1000
-
-
-
-"=============== TagBar Toggle
-map <c-t> :TagbarToggle<CR>
+map <c-t> :CtrlPTag<CR>
 
 
 
 "=============== Powerline
 set guifont=Droid_Sans_Mono_for_Powerline:h11
 let g:airline_powerline_fonts = 1
-:Airlinetheme powerlineish
+:AirlineTheme powerlineish
