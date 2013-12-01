@@ -1,7 +1,6 @@
 " ============== Audrino Make Shortcuts
 autocmd FileType arduino map <buffer> <D-u> :make upload<CR>
-autocmd FileType arduino map <buffer> <D-U> :make monitor<CR>
-
+autocmd FileType arduino map <buffer> <D-U> :ConqueTermSplit make monitor<CR>
 
 
 " ============== Map emmet-vim shortcut
