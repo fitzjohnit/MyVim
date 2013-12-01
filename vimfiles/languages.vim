@@ -1,5 +1,7 @@
-" ============== Make Upload for Arduino
-autocmd FileType arduino map <buffer> <D-B> :make upload<CR>
+" ============== Audrino Make Shortcuts
+autocmd FileType arduino map <buffer> <D-u> :make upload<CR>
+autocmd FileType arduino map <buffer> <D-U> :make monitor<CR>
+
 
 
 " ============== Map emmet-vim shortcut
