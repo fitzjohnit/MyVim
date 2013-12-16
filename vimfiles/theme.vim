@@ -1,5 +1,5 @@
 "=============== Look and feel
-colorscheme desert
+colorscheme cobalt
 set autoindent
 set cindent
 set expandtab
